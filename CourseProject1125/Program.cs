@@ -23,7 +23,7 @@ sealed class Program
             }).
             ConfigureServices((c, s) =>
             {
-                s.Configure<DataBaseConnection>(c.Configuration.GetSection("DataBaseConnection"));
+                s.Configure<Connection>(c.Configuration.GetSection("DataBaseConnection"));
             }).Build();
         BuildAvaloniaApp(host.Services)
             .StartWithClassicDesktopLifetime(args);

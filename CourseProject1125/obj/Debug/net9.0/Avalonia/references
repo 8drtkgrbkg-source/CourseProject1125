@@ -27,7 +27,11 @@
 /home/student/.nuget/packages/harfbuzzsharp/8.3.1.1/lib/net8.0/HarfBuzzSharp.dll
 /home/student/.nuget/packages/microcom.runtime/0.11.0/lib/net5.0/MicroCom.Runtime.dll
 /home/student/.nuget/packages/microsoft.bcl.asyncinterfaces/11.0.0-preview.3.26207.106/lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll
+/home/student/.nuget/packages/microsoft.bcl.cryptography/9.0.13/lib/net9.0/Microsoft.Bcl.Cryptography.dll
 /home/student/.dotnet/packs/Microsoft.NETCore.App.Ref/9.0.8/ref/net9.0/Microsoft.CSharp.dll
+/home/student/.nuget/packages/microsoft.data.sqlclient/7.0.1/ref/net9.0/Microsoft.Data.SqlClient.dll
+/home/student/.nuget/packages/microsoft.data.sqlclient.extensions.abstractions/1.0.0/lib/netstandard2.0/Microsoft.Data.SqlClient.Extensions.Abstractions.dll
+/home/student/.nuget/packages/microsoft.data.sqlclient.internal.logging/1.0.0/lib/netstandard2.0/Microsoft.Data.SqlClient.Internal.Logging.dll
 /home/student/.nuget/packages/microsoft.extensions.configuration.abstractions/11.0.0-preview.3.26207.106/lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll
 /home/student/.nuget/packages/microsoft.extensions.configuration.binder/11.0.0-preview.3.26207.106/lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll
 /home/student/.nuget/packages/microsoft.extensions.configuration.commandline/11.0.0-preview.3.26207.106/lib/netstandard2.0/Microsoft.Extensions.Configuration.CommandLine.dll
@@ -55,6 +59,13 @@
 /home/student/.nuget/packages/microsoft.extensions.options.configurationextensions/11.0.0-preview.3.26207.106/lib/netstandard2.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll
 /home/student/.nuget/packages/microsoft.extensions.options/11.0.0-preview.3.26207.106/lib/netstandard2.1/Microsoft.Extensions.Options.dll
 /home/student/.nuget/packages/microsoft.extensions.primitives/11.0.0-preview.3.26207.106/lib/netstandard2.0/Microsoft.Extensions.Primitives.dll
+/home/student/.nuget/packages/microsoft.identitymodel.abstractions/8.16.0/lib/net9.0/Microsoft.IdentityModel.Abstractions.dll
+/home/student/.nuget/packages/microsoft.identitymodel.jsonwebtokens/8.16.0/lib/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/student/.nuget/packages/microsoft.identitymodel.logging/8.16.0/lib/net9.0/Microsoft.IdentityModel.Logging.dll
+/home/student/.nuget/packages/microsoft.identitymodel.protocols/8.16.0/lib/net9.0/Microsoft.IdentityModel.Protocols.dll
+/home/student/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/8.16.0/lib/net9.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/home/student/.nuget/packages/microsoft.identitymodel.tokens/8.16.0/lib/net9.0/Microsoft.IdentityModel.Tokens.dll
+/home/student/.nuget/packages/microsoft.sqlserver.server/1.0.0/lib/netstandard2.0/Microsoft.SqlServer.Server.dll
 /home/student/.dotnet/packs/Microsoft.NETCore.App.Ref/9.0.8/ref/net9.0/Microsoft.VisualBasic.Core.dll
 /home/student/.dotnet/packs/Microsoft.NETCore.App.Ref/9.0.8/ref/net9.0/Microsoft.VisualBasic.dll
 /home/student/.dotnet/packs/Microsoft.NETCore.App.Ref/9.0.8/ref/net9.0/Microsoft.Win32.Primitives.dll
@@ -102,6 +113,7 @@
 /home/student/.dotnet/packs/Microsoft.NETCore.App.Ref/9.0.8/ref/net9.0/System.Globalization.Calendars.dll
 /home/student/.dotnet/packs/Microsoft.NETCore.App.Ref/9.0.8/ref/net9.0/System.Globalization.dll
 /home/student/.dotnet/packs/Microsoft.NETCore.App.Ref/9.0.8/ref/net9.0/System.Globalization.Extensions.dll
+/home/student/.nuget/packages/system.identitymodel.tokens.jwt/8.16.0/lib/net9.0/System.IdentityModel.Tokens.Jwt.dll
 /home/student/.dotnet/packs/Microsoft.NETCore.App.Ref/9.0.8/ref/net9.0/System.IO.Compression.Brotli.dll
 /home/student/.dotnet/packs/Microsoft.NETCore.App.Ref/9.0.8/ref/net9.0/System.IO.Compression.dll
 /home/student/.dotnet/packs/Microsoft.NETCore.App.Ref/9.0.8/ref/net9.0/System.IO.Compression.FileSystem.dll
@@ -181,6 +193,7 @@
 /home/student/.dotnet/packs/Microsoft.NETCore.App.Ref/9.0.8/ref/net9.0/System.Security.Cryptography.dll
 /home/student/.dotnet/packs/Microsoft.NETCore.App.Ref/9.0.8/ref/net9.0/System.Security.Cryptography.Encoding.dll
 /home/student/.dotnet/packs/Microsoft.NETCore.App.Ref/9.0.8/ref/net9.0/System.Security.Cryptography.OpenSsl.dll
+/home/student/.nuget/packages/system.security.cryptography.pkcs/9.0.13/lib/net9.0/System.Security.Cryptography.Pkcs.dll
 /home/student/.dotnet/packs/Microsoft.NETCore.App.Ref/9.0.8/ref/net9.0/System.Security.Cryptography.Primitives.dll
 /home/student/.dotnet/packs/Microsoft.NETCore.App.Ref/9.0.8/ref/net9.0/System.Security.Cryptography.X509Certificates.dll
 /home/student/.dotnet/packs/Microsoft.NETCore.App.Ref/9.0.8/ref/net9.0/System.Security.dll
