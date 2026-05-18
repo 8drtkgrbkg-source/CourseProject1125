@@ -12,18 +12,7 @@ namespace CourseProject1125.ViewModels
 {
     public class MainWindowViewModel : INotifyPropertyChanged
     {
-        private DataView _allBooks;
-
-        
-        public DataView AllBooks
-        {
-            get => _allBooks;
-            set
-            {
-                _allBooks = value;
-                OnPropertyChanged(); 
-            }
-        }
+       
 
         public MainWindowViewModel()
         {
@@ -37,18 +26,7 @@ namespace CourseProject1125.ViewModels
                
                 string connectionString = Connection.ConnectionString; 
 
-                using (SqlConnection con = new SqlConnection(connectionString))
-                {
-                    con.Open();
-                    
-                    string query = "SELECT * FROM books"; 
-                    
-                    SqlDataAdapter sda = new SqlDataAdapter(query, con);
-                    DataTable dt = new DataTable();
-                    sda.Fill(dt);
-
-                    AllBooks = dt.DefaultView;
-                }
+               
             }
             catch (Exception ex)
             {
