@@ -11,22 +11,19 @@
     <Design.DataContext>
         <vm:MainWindowViewModel/>
     </Design.DataContext>
-    <StackPanel Spacing="10" Margin="20">
-    <TextBox Name="TxtLogin" 
-             Watermark="Введите логин" 
-             ToolTip.Tip="Введите логин"/>
-    
-    <TextBox Name="TxtPassword" 
-             PasswordChar="*" 
-             Watermark="Введите пароль" 
-             ToolTip.Tip="Введите пароль"/>
-    
-    <Button Content="Войти" 
-            Click="BtnLogin_Click" 
-            HorizontalAlignment="Center"/>
-    
-    <TextBlock Name="LblError" 
-               Foreground="Red" 
-               HorizontalAlignment="Center"/>
+    <StackPanel Margin="20" Spacing="10" VerticalAlignment="Center">
+        <TextBlock Text="Логин:" />
+        <TextBox Name="TxtLogin" />
+        
+        <TextBlock Text="Пароль:" />
+        <TextBox Name="TxtPassword" PasswordChar="*" />
+        
+        <Button Content="Войти" 
+                Click="BtnLogin_Click" 
+                HorizontalAlignment="Stretch" 
+                HorizontalContentAlignment="Center" />
+        
+        <!-- Сюда будем выводить ошибки прямо в окне -->
+        <TextBlock Name="LblError" Foreground="Red" HorizontalAlignment="Center" />
     </StackPanel>
 </Window>
